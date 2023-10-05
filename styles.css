@@ -1,0 +1,243 @@
+.body{
+    width: 1728px;
+    height: 1116.5px;
+    top: -6px;
+    left: 17px;
+    padding: 0px, 0px, 0px, 0px;
+    border: 1px;
+
+}
+
+.left{
+    padding-top:1px;
+    background-color: black;
+    width:371.8px;
+}
+.logo{
+    padding-left: 35.82px; ;
+    padding-top: 39.29px;
+}
+.left-top{
+    padding-left: 8px;
+    /* background-color: red; */
+    width: 347.1px;
+    height: 178.46px;
+    top: 138.11px;
+    left: 12.35px;
+    border-radius: 6px;
+}
+.left-home{
+    background-color:#282828 ;
+    width:330.1px;
+    top:138.11px;
+    left:12.35px;
+    border-radius: 6px;
+    margin:auto;   
+}
+.left-home>h5{
+    font-weight: 700;
+    line-height: 24.72px;
+    letter-spacing: -6%;
+}
+
+.left-search>h5{
+    font-weight: 700;
+    line-height: 24.72px;
+    letter-spacing: -6%;
+}
+.left-library>h5{
+    font-weight: 700;
+    line-height: 24.72px;
+    letter-spacing: -6%;
+}
+.podcast{
+    width: 37.06px;
+    height: 37.06px;
+    top: 496.32px;
+    left: 37.06px;
+    border-radius: 5px;
+    background-color: #004638;
+}
+.podcast>img{
+    margin: auto;
+    padding-left:6px;
+    padding-top: 6px;
+}
+.plus{
+    width: 37.06px;
+    height: 37.06px;
+    top: 372.8px;
+    left: 37.06px;
+    border-radius: 1px;
+    background-color: #ffffff;
+}
+.plus>img{
+    margin: auto;
+    padding-left: 2px;
+    padding-top: 3px;
+}
+
+.fav{
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.0525em;
+    text-align: left;
+    align-items: center;
+}
+.middle{
+    background-image: linear-gradient(to bottom, black 50%,white 100%);
+    width:78.5%;
+    /* position:relative; */
+}
+.middle-nav{
+    position:sticky;
+    top:0px;
+    background-color: #303030;
+    width:100%;
+}
+.left-circle{
+    position: relative;
+    /* background-color: green; */
+    padding-left: 6px;
+}
+.left-arrow{
+    position: relative;
+    top:-35px;
+    padding-left: 6px;
+    left:7px;
+    /* background-color: yellow; */
+}
+.right-circle{
+    position: relative;
+    
+    padding-left: 15px;
+}
+.right-arrow{
+    position: relative;
+    left:7px;
+    top: -35px;
+    padding-left: 15px;
+    /* background-color: pink; */
+}
+.first-arrow{
+    width:50px;
+}
+.second-arrow{
+    width:50px;
+}
+.arrows{
+    padding-top: 20px;
+    /* width:10%; */
+}
+.angel{
+    /* font-family: DM Sans; */
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color:#fff;
+}
+.button{
+    width: 147px;
+    height: 41px;
+    top: 16px;
+    left: 1561px;
+    border: none;
+    border-radius:33px;
+    justify-content: space-between;
+    background-color: #000;
+}
+.horcards{
+    width: 325px;
+    height: 100px;
+    top: 186px;
+    left: 419px;
+    border-radius: 4px;
+    background-color: #282828;
+}
+.my-card{
+    width: 220.29px;
+    height: 275.9px;
+    top: 506.58px;
+    left: 419px;
+    background-color: #181818;
+    margin: 10px;
+}
+.my-card>img{
+    width:200px;
+    margin: auto;  
+    align-items: center;
+}
+.playing{
+    position:fixed;
+    z-index: 1;
+    background-color: #181818;
+    height:112px;
+    bottom:0;
+    width: 100%;
+}
+.cards{
+    flex-wrap: wrap;
+}
+.playing-left{
+    width:16%;
+    /* background-color: #004638; */
+}
+.playing-middle{
+    width:40%;
+    /* background-color: red; */
+    /* justify-content: center; */
+}
+.playing-middle-top{
+    width:50%
+}
+.f-box{
+    width: 425px;
+    height: 5px;
+    top: 1066px;
+    left: 544px;
+    border-radius: 2.5px;
+    background-color: #c4c4c4;
+}
+.s-box{
+    width: 511px;
+    height: 5px;
+    top: 1066px;
+    left: 544px;
+    border-radius: 2.5px;
+    background-color: #303030;
+    
+}
+.playing-left>img{
+    align-self: center;
+    width: 62.97px;
+    height: 70px;
+    top: 1004px;
+    left: 17.09px;
+}
+.nef{
+    color:#B3B3B3;
+}
+.text{
+    align-self: center;
+}
+.playing-right{
+    width:18%;
+}
+.footer{
+    width:250px;
+    height:400px;
+}
+
+
+
+@media screen and (max-width: 480px){
+    .left{
+        width:100%;
+        height:auto;
+        position: relative;
+    }
+    .left-top li {float: left;}
+}
